@@ -18,7 +18,7 @@ if  height >= 120:  # if height is greater than or equal to 120 cm
         bill = 12
         #print("Please pay $12.")  # print that please pay $12
 
-    want_photo = input("Do you want a photo taken? Y or N. ")  # ask user if they want a photo taken
+    want_photo = input("Do you want a photo taken? Y or N. ").upper()  # ask user if they want a photo taken
     if want_photo == "Y":  # if user enters Y
         bill += 3
     print(f"Your final bill is ${bill}.")  # print that please take a photo
